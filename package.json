@@ -1,6 +1,6 @@
 {
   "name": "has-self-equality",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if a value has self equality",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tj-commits/has-self-equality.git"
+    "url": "git+https://github.com/10xly/has-self-equality.git"
   },
   "keywords": [
     "selfequality",
@@ -27,14 +27,17 @@
     "javascript",
     "usefull"
   ],
-  "author": "tj-commits/87f-",
+  "author": "10xly/87f-",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tj-commits/has-self-equality/issues"
+    "url": "https://github.com/10xly/has-self-equality/issues"
   },
-  "homepage": "https://github.com/tj-commits/has-self-equality#readme",
+  "homepage": "https://github.com/10xly/has-self-equality#readme",
   "devDependencies": {
     "@10xly/eslint-config": "*",
     "eslint": "^9.39.3"
+  },
+  "dependencies": {
+    "@10xly/strict-equals": "^1.0.1"
   }
 }
