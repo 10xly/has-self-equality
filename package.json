@@ -32,5 +32,9 @@
   "bugs": {
     "url": "https://github.com/tj-commits/has-self-equality/issues"
   },
-  "homepage": "https://github.com/tj-commits/has-self-equality#readme"
+  "homepage": "https://github.com/tj-commits/has-self-equality#readme",
+  "devDependencies": {
+    "@10xly/eslint-config": "*",
+    "eslint": "^9.39.3"
+  }
 }
